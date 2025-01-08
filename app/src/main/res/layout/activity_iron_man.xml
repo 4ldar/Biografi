@@ -1,0 +1,140 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0B192C">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:id="@+id/btnBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="&#60;"
+                android:textSize="30sp"
+                android:textColor="#FF6500"
+                android:layout_marginEnd="8dp"
+                android:padding="4dp"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <TextView
+                android:id="@+id/btnShare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Share"
+                android:textSize="16sp"
+                android:textColor="#FF6500"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="298dp"
+                android:padding="4dp"
+                android:clickable="true"
+                android:focusable="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp"
+            android:background="#1A2B3C"
+            android:padding="16dp"
+            android:elevation="4dp"
+            android:clipToOutline="true"
+            android:outlineProvider="background">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/rdj"
+                android:scaleType="centerCrop"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/shape"
+                android:clipToOutline="true" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Robert Downey Jr."
+                    android:textColor="#ECDFCC"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Iron Man / Tony Stark"
+                    android:textColor="#ECDFCC"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#1A2B3C"
+            android:padding="16dp"
+            android:elevation="4dp"
+            android:clipToOutline="true"
+            android:outlineProvider="background">
+
+            <TextView
+                android:id="@+id/tvBiography"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Robert Downey Jr. adalah aktor terkenal asal Amerika Serikat yang lahir pada 4 April 1965 di New York City. Ia tumbuh dalam keluarga yang berkecimpung di dunia film, dengan ayahnya sebagai pembuat film dan ibunya seorang aktris. Kariernya dimulai sejak kecil, dan ia dikenal lewat film Less Than Zero (1987) dan mendapat nominasi Oscar untuk perannya sebagai Charlie Chaplin dalam film Chaplin (1992). Namun, kariernya sempat terganggu akibat kecanduan narkoba. Setelah beberapa kali rehabilitasi, ia bangkit kembali dan mencapai kesuksesan besar pada 2008 dengan perannya sebagai Tony Stark/Iron Man dalam film Iron Man. Ia menjadi bagian penting dari Marvel Cinematic Universe (MCU) hingga film Avengers: Endgame (2019). Selain Iron Man, ia juga terkenal lewat perannya sebagai Sherlock Holmes dalam film Sherlock Holmes (2009) dan sekuelnya. Robert menikah dengan Susan Levin pada 2005 dan memiliki dua anak. Ia juga memiliki perusahaan produksi bernama Team Downey. Downey Jr. dikenal sebagai aktor dengan bayaran tertinggi dan sebagai salah satu tokoh yang berhasil bangkit dari masa sulit dalam hidupnya."
+                android:textColor="#ECDFCC"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginBottom="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:background="#1A2B3C"
+            android:padding="16dp"
+            android:elevation="4dp"
+            android:clipToOutline="true"
+            android:outlineProvider="background">
+
+            <Button
+                android:id="@+id/btnInstagram"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Instagram"
+                android:backgroundTint="#FF6500"
+                android:textColor="#FFFFFF"
+                android:layout_marginEnd="8dp"/>
+
+            <Button
+                android:id="@+id/btnTwitter"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Twitter"
+                android:backgroundTint="#FF6500"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
